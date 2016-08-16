@@ -15,6 +15,7 @@ module.exports = class Commands {
       
       
     }
+  }
     argsParser(str,splitpoint) { // commandname first:hello,secound:just,third:testing --> Object{first:"hello",secound:"just",third:"testing"  }
       var cmd = str.split(" ")
       if (!splitpoint) splitpoint = 1
@@ -28,7 +29,7 @@ module.exports = class Commands {
       
       return results; 
     }
-  }
+  
   
   
   
