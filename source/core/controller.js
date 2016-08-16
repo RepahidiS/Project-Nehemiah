@@ -10,10 +10,16 @@ module.exports = class Controller {
     this.serverService = new ServerService(this)
   }
   execCommand(str) {
-    this.serverService.execCommand(str)
+    this.serverService.execCommand(str,true)
     
   }
-  
+  init() {
+    this.serverService.init()
+  }
+  stop() {
+    
+    
+  }
   
   
 }
