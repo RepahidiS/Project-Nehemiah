@@ -5,7 +5,7 @@ module.exports = class ServerService {
     this.globalData = globalData
     this.controller = controller
     
-    var serv = new Main(true,0,globalData)
+    var serv = new Main(true,0,"Main","Main",globalData)
     this.servers = [];
     this.ids = 0
     this.servers[0] = serv;
