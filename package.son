@@ -1,1 +1,30 @@
-
+{
+  "name": "ProjectN",
+  "version": "1.0.0",
+  "description": "Shh",
+  "main": "index.js",
+  "engines": {
+    "node": "5.9.0"
+  },
+  "dependencies": {
+    "cli-gui": "latest",
+    "QuadMap": "latest",
+    "quickmap": "latest",
+    "SmartConfig": "latest"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node build.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AJS-development/Project-Nehemiah"
+  },
+  "author": "AJS-development",
+  "license": "Apache License 2.0",
+  "bugs": {
+    "url": "https://github.com/AJS-development/Project-Nehemiah/issues"
+  },
+  "homepage": "https://github.com/AJS-development/Project-Nehemiah"
+}
