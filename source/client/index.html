@@ -6,7 +6,7 @@
   $(document).ready(function() {
     	    
     	        var connectionfail = false;
-    	        var request = prompt("Enter server address:port (if ws doesnt work, use wss)", "ws://127.0.0.1:443");
+    	        var request = prompt("Enter server address:port ", "127.0.0.1:8080");
     	        
     	            var game = io.connect(request, true);
     	        
