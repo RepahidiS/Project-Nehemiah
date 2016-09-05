@@ -1,9 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-
+  <script src="/socket.io/socket.io.js"></script>
+<script>
+  $(document).ready(function() {
+    	    
+    	        var connectionfail = false;
+    	        var request = prompt("Enter server address:port (if ws doesnt work, use wss)", "ws://127.0.0.1:443");
+    	        
+    	            var game = io.connect(request, true);
+    	        
+    	    
+    	   
+    	});
+</script>
 </head>
 <body>
-var game = io.connect(a)
+  
 </body>
 </html>
