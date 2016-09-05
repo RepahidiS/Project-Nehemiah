@@ -7,7 +7,7 @@ module.exports = class Controller {
     
     
     this.globalData = new GlobalData()
-    this.shellService = new ShellService(this)
+    this.shellService = new ShellService(this,this.globalData)
     this.serverService = new ServerService(this,this.globalData)
   }
   execCommand(str) {
