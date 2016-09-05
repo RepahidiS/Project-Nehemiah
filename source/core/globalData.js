@@ -1,7 +1,8 @@
 
 module.exports = class GlobalData {
-constructor() {
+constructor(config) {
 this.data = {};
+this.config = config;
 }
 getData() {
 return this.data;
