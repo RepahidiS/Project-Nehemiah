@@ -16,7 +16,7 @@ module.exports = class ServerService {
     return this.ids ++;
   }
   init() {
-    
+    serv.start();
   }
   getCommand() {
     
